@@ -1,4 +1,5 @@
 <?php 
+// Creare una variabile con un paragrafo di testo a vostra scelta
 $text = 'Ciao a tutti oggi è stato il mio primo giorno di backend!😊';
 ?>
 
@@ -11,7 +12,8 @@ $text = 'Ciao a tutti oggi è stato il mio primo giorno di backend!😊';
     <title>PHP Badwords</title>
 </head>
 <body>
-    <p><?php echo $text; ?></p>
+    <!-- Stampare a schermo il paragrafo e la sua lunghezza. -->
+    <p><?php echo $text; echo strlen($text); ?></p>
 </body>
 </html>
 
