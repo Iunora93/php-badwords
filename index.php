@@ -2,7 +2,7 @@
 // Creare una variabile con un paragrafo di testo a vostra scelta
 $text = 'Ciao a tutti oggi è stato il mio primo giorno di backend!😊';
 // Una parola da censurare viene passata dall'utente tramite parametro GET.
-$word = $_GET['word'];
+$word = $_GET['badword'];
 $text2 = str_replace($word,"***", $text);
 ?>
 
